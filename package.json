@@ -4,15 +4,24 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "dev": "tsx watch --env-file .env src/infra/http/server.ts"
+    "dev": "tsx watch --env-file .env src/infra/http/server.ts",
+    "test": "dotenv -e .env.test -- vitest run",
+    "test:watch": "dotenv -e .env.test -- vitest"
   },
   "devDependencies": {
     "@biomejs/biome": "^1.9.4",
+    "@types/node": "^22.13.4",
+    "dotenv-cli": "^8.0.0",
     "tsx": "^4.19.2",
-    "typescript": "^5.7.3"
+    "typescript": "^5.7.3",
+    "vite-tsconfig-paths": "^5.1.4",
+    "vitest": "^3.0.5"
   },
   "dependencies": {
     "@fastify/cors": "^10.0.2",
+    "@fastify/multipart": "^9.0.3",
+    "@fastify/swagger": "^9.4.2",
+    "@fastify/swagger-ui": "^5.2.1",
     "fastify": "^5.2.1",
     "fastify-type-provider-zod": "^4.0.2",
     "zod": "^3.24.2"
