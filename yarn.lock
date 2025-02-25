@@ -1116,6 +1116,11 @@
   resolved "https://registry.yarnpkg.com/@esbuild/win32-x64/-/win32-x64-0.24.2.tgz#34aa0b52d0fbb1a654b596acfa595f0c7b77a77b"
   integrity sha512-7VTgWzgMGvup6aSqDPLiW5zHaxYJGTO4OokMjIlrCtf+VpEL+cXKtCvg723iguPYI5oaUNdS+/V7OU2gvXVWEg==
 
+"@faker-js/faker@^9.5.0":
+  version "9.5.0"
+  resolved "https://registry.yarnpkg.com/@faker-js/faker/-/faker-9.5.0.tgz#ce254c83706250ca8a5a0e05683608160610dd84"
+  integrity sha512-3qbjLv+fzuuCg3umxc9/7YjrEXNaKwHgmig949nfyaTx8eL4FAsvFbu+1JcFUj1YAXofhaDn6JdEUBTYuk0Ssw==
+
 "@fastify/accept-negotiator@^2.0.0":
   version "2.0.1"
   resolved "https://registry.yarnpkg.com/@fastify/accept-negotiator/-/accept-negotiator-2.0.1.tgz#77afd6254ba77f6c22c6f35c4fb0c1b6d005199b"
@@ -2064,6 +2069,11 @@ cross-spawn@^7.0.0, cross-spawn@^7.0.6:
     path-key "^3.1.0"
     shebang-command "^2.0.0"
     which "^2.0.1"
+
+dayjs@^1.11.13:
+  version "1.11.13"
+  resolved "https://registry.yarnpkg.com/dayjs/-/dayjs-1.11.13.tgz#92430b0139055c3ebb60150aa13e860a4b5a366c"
+  integrity sha512-oaMBel6gjolK862uaPQOVTA7q3TZhuSvuMQAAglQDOWYO9A91IrAOUJEyKVlqJlHE0vq5p5UXxzdPfMH/x6xNg==
 
 debug@^4.1.1, debug@^4.3.4, debug@^4.4.0:
   version "4.4.0"
