@@ -29,8 +29,8 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - uses: yarn/action-setup@v4
-        name: Install yarn
+      - uses: pnpm/action-setup@v4
+        name: Install pnpm
         with:
           version: 9
           run_install: false
@@ -39,7 +39,7 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: 20
-          cache: "yarn"
+          cache: "pnpm"
 
-      - run: yarn install --frozen-lockfile
-      - run: yarn run test
+      - run: pnpm install --frozen-lockfile
+      - run: pnpm run test
